@@ -1,0 +1,30 @@
+body {
+    background-color: white;
+}
+
+nav {
+    background-color: black;
+    color: white;
+}
+
+.container {
+    max-width: 48rem;
+    width: 100%;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+
+.record_header {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+@media screen and (max-width : 768px) {
+    .record_header {
+        flex-direction: column;
+    }
+}
